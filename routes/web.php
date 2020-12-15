@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +21,13 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::prefix('upload')->name('upload.')->group(function () {
+    Route::get('/', function () {
+        // Route assigned name "admin.users"...
+        return view('upload');
+    })->name('main');
+
+    Route::post('/upload',[HomeController::class,'upload'])->name('uploadFile');
+
+});

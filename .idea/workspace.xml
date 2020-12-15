@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f006c870-e38a-4cb9-ba38-cd812c672104" name="Default Changelist" comment="Lj,fdktybt">
+    <list default="true" id="f006c870-e38a-4cb9-ba38-cd812c672104" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/upload.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +163,8 @@
       <option name="presentableId" value="Default" />
       <updated>1608053367837</updated>
       <workItem from="1608053368894" duration="761000" />
-      <workItem from="1608055587490" duration="2030000" />
+      <workItem from="1608055587490" duration="2653000" />
+      <workItem from="1608059404183" duration="2529000" />
     </task>
     <task id="LOCAL-00001" summary="Добавление backpack">
       <created>1608057324293</created>
@@ -169,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608057324293</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update README.md">
+      <created>1608057646375</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608057646375</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,16 +190,21 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Lдобавление backpack" />
     <MESSAGE value="Добавление backpack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавление backpack" />
+    <MESSAGE value="update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="582" y="88" key="CommitChangelistDialog2" timestamp="1608057568340">
+    <state x="582" y="88" key="CommitChangelistDialog2" timestamp="1608057645553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="582" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608057568340" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1608057327909">
+    <state x="582" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608057645553" />
+    <state x="795" y="443" key="NewPhpFileDialog" timestamp="1608061680770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608057327909" />
+    <state x="795" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608061680770" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1608057647941">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608057647941" />
   </component>
 </project>
