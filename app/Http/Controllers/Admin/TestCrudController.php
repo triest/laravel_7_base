@@ -34,7 +34,9 @@ class TestCrudController  extends CrudController
         $this->crud->addField([
             'name' => 'image',
             'type' => 'upload',
-            'label' => "Изображение"
+            'label' => "Изображение",
+            'upload' => true,
+            'disk' => 'uploads',
         ]);
     }
 }
