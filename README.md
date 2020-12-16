@@ -7,4 +7,8 @@ https://backpackforlaravel.com.
 Авторизация уже установленна. Можно использовать как базовый.
 
 Адрес админки: /admin/dashboard
-Добавление CRUD: php artisan backpack:crud User
+
+php artisan make:model -m File
+Добавление CRUD: php artisan backpack:crud File
+
+/admin/user
