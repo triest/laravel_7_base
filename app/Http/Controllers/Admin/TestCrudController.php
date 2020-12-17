@@ -25,10 +25,43 @@ class TestCrudController extends CrudController
 
     public function setupListOperation()
     {
-        $this->crud->setColumns(['name']);
+        $this->crud->addColumn(['name' => 'name', 'label' => 'Название', 'type' => 'Text']);
+        $this->crud->addColumn(['name' => 'tag', 'label' => 'Тег', 'type' => 'relationship',
+        ]);
     }
 
     public function setupCreateOperation()
+    {
+        $this->crud->addField([
+            'name' => 'name',
+            'type' => 'text',
+            'label' => "Название"
+        ]);
+
+        $this->crud->addField([
+            'name' => 'image',
+            'type' => 'upload',
+            'label' => "Изображение",
+            'upload' => true,
+            'disk' => 'uploads',
+        ]);
+
+        $this->crud->addField([
+            'label' => 'Тег',
+            'name' => 'tag',
+            'entity' => 'tag',
+            'type' => 'select2_multiple',
+            'attribute' => 'name',
+            'pivot' => true,
+            'model' => 'App\Tag',
+            'options' => (function ($query) {
+                return $query->orderBy('name', 'ASC')->get();
+            })
+
+        ]);
+    }
+
+    public function setupUpdateOperation()
     {
         $this->crud->addField([
             'name' => 'name',
