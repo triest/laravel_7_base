@@ -40,10 +40,10 @@ class TestCrudController extends CrudController
 
         $this->crud->addField([
             'name' => 'image',
-            'type' => 'upload',
             'label' => "Изображение",
-            'upload' => true,
-            'disk' => 'uploads',
+            'type' => 'image',
+            'crop' => true, // set to true to allow cropping, false to disable
+            'aspect_ratio' => 1,
         ]);
 
         $this->crud->addField([
