@@ -8,4 +8,11 @@ https://backpackforlaravel.com.
 
 Адрес админки: /admin/dashboard
 
+<<<<<<< HEAD
 
+=======
+php artisan make:model -m File
+Добавление CRUD: php artisan backpack:crud File
+
+/admin/user
+>>>>>>> remotes/origin/master

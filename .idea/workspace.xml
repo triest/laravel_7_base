@@ -6,9 +6,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f006c870-e38a-4cb9-ba38-cd812c672104" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/File.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/File.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/app/File.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/FileCrudController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/FileRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/File.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_16_100915_create_files_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/UserCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/UserCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/vendor/backpack/base/inc/sidebar_content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/backpack/base/inc/sidebar_content.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/backpack/custom.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/backpack/custom.php" afterDir="false" />
+>>>>>>> remotes/origin/master
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +154,7 @@
       <path value="$PROJECT_DIR$/vendor/cocur/slugify" />
       <path value="$PROJECT_DIR$/vendor/cviebrock/eloquent-sluggable" />
       <path value="$PROJECT_DIR$/vendor/spatie/laravel-translatable" />
+<<<<<<< HEAD
       <path value="$PROJECT_DIR$/vendor/league/flysystem-cached-adapter" />
       <path value="$PROJECT_DIR$/vendor/psr/cache" />
       <path value="$PROJECT_DIR$/vendor/backpack/filemanager" />
@@ -148,6 +162,8 @@
       <path value="$PROJECT_DIR$/vendor/studio-42/elfinder" />
       <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-elfinder" />
       <path value="$PROJECT_DIR$/vendor/barryvdh/elfinder-flysystem-driver" />
+=======
+>>>>>>> remotes/origin/master
     </include_path>
   </component>
   <component name="ProjectId" id="1lhdgRwiNfWYITavdr2RF4xyAoZ" />
@@ -163,6 +179,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -187,7 +204,10 @@
       <option name="presentableId" value="Default" />
       <updated>1608053367837</updated>
       <workItem from="1608053368894" duration="761000" />
-      <workItem from="1608055587490" duration="2030000" />
+      <workItem from="1608055587490" duration="2653000" />
+      <workItem from="1608059404183" duration="2719000" />
+      <workItem from="1608098795411" duration="916000" />
+      <workItem from="1608109073186" duration="4767000" />
     </task>
     <task id="LOCAL-00001" summary="Добавление backpack">
       <created>1608057324293</created>
@@ -196,6 +216,7 @@
       <option name="project" value="LOCAL" />
       <updated>1608057324293</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00002" summary="Add user crud">
       <created>1608127659676</created>
       <option name="number" value="00002" />
@@ -216,6 +237,28 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1608130964511</updated>
+=======
+    <task id="LOCAL-00002" summary="update README.md">
+      <created>1608057646375</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608057646375</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Добавление загрузки файлов">
+      <created>1608063361399</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608063361399</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Доработка README.md">
+      <created>1608113223016</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608113223016</updated>
+>>>>>>> remotes/origin/master
     </task>
     <option name="localTasksCounter" value="5" />
     <servers />
@@ -239,6 +282,7 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Lдобавление backpack" />
     <MESSAGE value="Добавление backpack" />
+<<<<<<< HEAD
     <MESSAGE value="Add user crud" />
     <MESSAGE value="Add file model" />
     <MESSAGE value="Add upload file" />
@@ -269,5 +313,41 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608127159152" />
+=======
+    <MESSAGE value="update README.md" />
+    <MESSAGE value="Добавление загрузки файлов" />
+    <MESSAGE value="Доработка README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Доработка README.md" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="201" key="#com.intellij.ide.util.MemberChooser" timestamp="1608111034277">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="201" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608111034277" />
+    <state x="582" y="88" key="CommitChangelistDialog2" timestamp="1608113221007">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="582" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608113221007" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1608100757217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608100757217" />
+    <state x="795" y="443" key="NewPhpFileDialog" timestamp="1608061680770">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="795" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608061680770" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1608113224612">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608113224612" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1608113351179">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608113351179" />
+    <state x="666" y="253" width="587" height="534" key="find.popup" timestamp="1608109756012">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="253" width="587" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608109756012" />
+>>>>>>> remotes/origin/master
   </component>
 </project>

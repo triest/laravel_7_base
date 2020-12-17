@@ -2,16 +2,21 @@
 
 namespace App;
 
+<<<<<<< HEAD
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Intervention\Image\Facades\Image;
+=======
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> remotes/origin/master
 
 class File extends Model
 {
     //
+<<<<<<< HEAD
    // use Notifiable;
 
     use CrudTrait;
@@ -63,4 +68,6 @@ class File extends Model
     public function tag(){
         return $this->belongsToMany(Tag::class);
     }
+=======
+>>>>>>> remotes/origin/master
 }
