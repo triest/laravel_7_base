@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 class HomeController extends Controller
 {
@@ -24,5 +25,13 @@ class HomeController extends Controller
     public function index()
     {
         return view('home');
+    }
+
+    public function upload(Request $request)
+    {
+        $path = $request->file('file')->store('public/avatars');
+        $url = Storage::url($path);
+        dump($url);
+
     }
 }

@@ -6,10 +6,9 @@ use App\Http\Controllers\Controller;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Illuminate\Http\Request;
 
-class TestCrudController extends CrudController
+class TagCrudController   extends CrudController
 {
     //
-
     use \Backpack\CRUD\app\Http\Controllers\Operations\ListOperation;
     use \Backpack\CRUD\app\Http\Controllers\Operations\ShowOperation;
     use \Backpack\CRUD\app\Http\Controllers\Operations\CreateOperation;
@@ -18,9 +17,9 @@ class TestCrudController extends CrudController
 
     public function setup()
     {
-        $this->crud->setModel("App\File");
-        $this->crud->setRoute("admin/test");
-        $this->crud->setEntityNameStrings('файл', 'файлы');
+        $this->crud->setModel("App\Tag");
+        $this->crud->setRoute("admin/tag");
+        $this->crud->setEntityNameStrings('тег', 'теги');
     }
 
     public function setupListOperation()
@@ -36,26 +35,6 @@ class TestCrudController extends CrudController
             'label' => "Название"
         ]);
 
-        $this->crud->addField([
-            'name' => 'image',
-            'type' => 'upload',
-            'label' => "Изображение",
-            'upload' => true,
-            'disk' => 'uploads',
-        ]);
 
-        $this->crud->addField([
-            'label' => 'Тег',
-            'name' => 'tag',
-            'entity' => 'tag',
-            'type' => 'select2_multiple',
-            'attribute' => 'name',
-            'pivot' => true,
-            'model' => 'App\Tag',
-            'options' => (function ($query) {
-                return $query->orderBy('name', 'ASC')->get();
-            })
-
-        ]);
     }
 }

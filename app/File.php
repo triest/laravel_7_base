@@ -5,6 +5,7 @@ namespace App;
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\Notifiable;
+use Illuminate\Support\Facades\Storage;
 
 class File extends Model
 {
@@ -25,5 +26,7 @@ class File extends Model
         $this->uploadFileToDisk($value, $attribute_name, $disk, $destination_path);
     }
 
-
+    public function tag(){
+        return $this->belongsToMany(Tag::class);
+    }
 }

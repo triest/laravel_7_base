@@ -7,3 +7,5 @@ https://backpackforlaravel.com.
 Авторизация уже установленна. Можно использовать как базовый.
 
 Адрес админки: /admin/dashboard
+
+
